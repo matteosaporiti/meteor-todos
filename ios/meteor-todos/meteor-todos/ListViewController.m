@@ -4,18 +4,29 @@
 @interface ListViewController ()
 
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
-@property (strong, nonatomic) M13MutableOrderedDictionary *lists;
+@property (copy, nonatomic) NSString *listName;
 
 @end
 
 @implementation ListViewController
+
+- (NSArray *)computedList {
+    
+    M13MutableOrderedDictionary *things = self.meteor.collections[self.listName];
+    
+    NSSortDescriptor *sort = [NSSortDescriptor sortDescriptorWithKey:@"numCreatedAt" ascending:NO];
+    NSArray *mytest = [things.allObjects sortedArrayUsingDescriptors:@[sort]];
+    
+    return mytest;
+
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil meteor:(MeteorClient *)meteor {
     
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.meteor = meteor;
-        self.lists = self.meteor.collections[@"tasks"];
+        self.listName = @"tasks";
     }
     return self;
 
@@ -65,7 +76,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return [self.lists count];
+    return [self.computedList count];
 
 }
 
@@ -81,7 +92,7 @@ static NSDictionary *selectedList;
                                       reuseIdentifier:cellIdentifier];
     }
 
-    NSDictionary *list = self.lists[indexPath.row];
+    NSDictionary *list = self.computedList[indexPath.row];
     selectedList = list;
     cell.textLabel.text = list[@"text"];
     
@@ -96,7 +107,7 @@ static NSDictionary *selectedList;
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSDictionary *list = self.lists[indexPath.row];
+    NSDictionary *list = self.computedList[indexPath.row];
     
     [self.meteor callMethodName:@"deleteTask" parameters:@[list[@"_id"]] responseCallback:^(NSDictionary *response, NSError *error) {
         NSString *message = response[@"result"];
