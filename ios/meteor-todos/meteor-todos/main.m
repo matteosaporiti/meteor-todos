@@ -1,9 +1,9 @@
 //
 //  main.m
-//  Example
+//  meteor-todos
 //
-//  Created by Michael Arthur on 14/10/14.
-//  Copyright (c) 2014 Jesse Bounds. All rights reserved.
+//  Created by Luca Zulian on 14/03/15.
+//  Copyright (c) 2015 lucazulian.it. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

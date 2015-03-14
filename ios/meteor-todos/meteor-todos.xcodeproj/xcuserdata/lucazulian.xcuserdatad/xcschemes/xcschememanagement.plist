@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Example.xcscheme</key>
+		<key>meteor-todos.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>EAC6939C19EC94C000F0627B</key>
+		<key>1B9197B11AB4A19C0038B60B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1B9197CD1AB4A19C0038B60B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -10,7 +10,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *connectionStatusLight;
 @property (weak, nonatomic) IBOutlet UIButton *loginButton;
 @property (strong, nonatomic) MeteorClient *meteor;
-@property (weak, nonatomic) IBOutlet UIButton *sayHiButton;
 
 - (IBAction)didTapLoginButton:(id)sender;
 

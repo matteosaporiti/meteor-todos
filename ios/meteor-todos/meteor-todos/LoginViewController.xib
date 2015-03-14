@@ -11,7 +11,6 @@
                 <outlet property="email" destination="4" id="WVD-E0-3i7"/>
                 <outlet property="loginButton" destination="33" id="147"/>
                 <outlet property="password" destination="17" id="153"/>
-                <outlet property="sayHiButton" destination="abm-Si-OaD" id="VXX-Ry-XiJ"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -56,24 +55,6 @@
                     </state>
                     <connections>
                         <action selector="didTapLoginButton:" destination="-1" eventType="touchUpInside" id="148"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abm-Si-OaD">
-                    <rect key="frame" x="20" y="315" width="280" height="44"/>
-                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="44" id="EVb-Xo-SeN"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                    <state key="normal" title="Say Hello">
-                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <state key="highlighted">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="didTapSayHiButton" destination="-1" eventType="touchUpInside" id="Urv-XX-2VO"/>
                     </connections>
                 </button>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Meteor TodoS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40">

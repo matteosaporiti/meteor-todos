@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E86B695F-0513-4FC3-AF5C-B099EE312973</string>
+	<key>IDESourceControlProjectName</key>
+	<string>meteor-todos</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5558896EB4AEC947109C5C545EC3B8951F0587E5</key>
+		<string>https://github.com/lucazulian/meteor-todos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/meteor-todos/meteor-todos.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5558896EB4AEC947109C5C545EC3B8951F0587E5</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lucazulian/meteor-todos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5558896EB4AEC947109C5C545EC3B8951F0587E5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5558896EB4AEC947109C5C545EC3B8951F0587E5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>meteor-todos</string>
+		</dict>
+	</array>
+</dict>
+</plist>

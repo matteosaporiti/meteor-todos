@@ -124,6 +124,8 @@ if (Meteor.isServer) {
                 { private: {$ne: true} },
                 { owner: this.userId }
             ]
+        }, {
+            sort: {createdAt: -1}
         });
     });
 

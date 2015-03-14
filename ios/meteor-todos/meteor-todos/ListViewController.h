@@ -5,8 +5,8 @@
 
 @property (nonatomic, strong) MeteorClient *meteor;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-               meteor:(MeteorClient *)meteor;
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil meteor:(MeteorClient *)meteor;
+
 @property (copy, nonatomic) NSString *userId;
 
 @end

@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EAC6939C19EC94C000F0627B"
-               BuildableName = "Example.app"
-               BlueprintName = "Example"
-               ReferencedContainer = "container:Example.xcodeproj">
+               BlueprintIdentifier = "1B9197B11AB4A19C0038B60B"
+               BuildableName = "meteor-todos.app"
+               BlueprintName = "meteor-todos"
+               ReferencedContainer = "container:meteor-todos.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1B9197CD1AB4A19C0038B60B"
+               BuildableName = "meteor-todosTests.xctest"
+               BlueprintName = "meteor-todosTests"
+               ReferencedContainer = "container:meteor-todos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +42,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1B9197CD1AB4A19C0038B60B"
+               BuildableName = "meteor-todosTests.xctest"
+               BlueprintName = "meteor-todosTests"
+               ReferencedContainer = "container:meteor-todos.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAC6939C19EC94C000F0627B"
-            BuildableName = "Example.app"
-            BlueprintName = "Example"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "1B9197B11AB4A19C0038B60B"
+            BuildableName = "meteor-todos.app"
+            BlueprintName = "meteor-todos"
+            ReferencedContainer = "container:meteor-todos.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAC6939C19EC94C000F0627B"
-            BuildableName = "Example.app"
-            BlueprintName = "Example"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "1B9197B11AB4A19C0038B60B"
+            BuildableName = "meteor-todos.app"
+            BlueprintName = "meteor-todos"
+            ReferencedContainer = "container:meteor-todos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAC6939C19EC94C000F0627B"
-            BuildableName = "Example.app"
-            BlueprintName = "Example"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "1B9197B11AB4A19C0038B60B"
+            BuildableName = "meteor-todos.app"
+            BlueprintName = "meteor-todos"
+            ReferencedContainer = "container:meteor-todos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
