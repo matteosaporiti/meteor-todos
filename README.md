@@ -17,17 +17,11 @@ Here are some links you may find helpful:
 * [FAQ](http://meteor.com/faq)
 * [Meteor on GitHub](https://github.com/meteor)
 * [Meteor on YouTube](http://www.youtube.com/user/MeteorVideos)
-
-Articles and guides from the community:
-
-* [Learn Meteor Fundamentals and Best Practices](http://andrewscala.com/meteor)
-* [Introduction to Realtime Web with Meteor and Node.js](http://www.andrewmunsell.com/blog/introduction-to-realtime-web-meteor-and-nodejs)
-* [Confessions of a Meteor Newb](http://blog.jerodsanto.net/2012/04/confessions-of-a-meteor-newb)
+* [Meteor Forum](https://forums.meteor.com)
 
 Get help from other Meteor users:
 
 * [Meteor on StackOverflow](http://stackoverflow.com/questions/tagged/meteor)
-* [Mailing list on Google Groups](https://groups.google.com/forum/?fromgroups#!forum/meteor-core)
 * [Meteor on Twitter](http://twitter.com/meteorjs)
 
 ## Running
