@@ -8,6 +8,10 @@ Template.task.events({
     },
     "click .toggle-private": function () {
         Meteor.call("setPrivate", this._id, ! this.private);
+    },
+    'click [data-action="go-single-task"]': function(event) {
+        event.preventDefault();
+        Router.go('single.task', {_id: this._id});
     }
 });
 
