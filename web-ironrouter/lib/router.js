@@ -18,7 +18,7 @@ Router.route('/task/:_id', {
         return [Meteor.subscribe('tasks')];
     },
     data: function (){
-        return Tasks.findOne({id: this.params._id});
+        return Tasks.findOne({_id: this.params._id});
     },
     action: function(){
         this.render();
